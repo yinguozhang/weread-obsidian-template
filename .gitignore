@@ -1,0 +1,11 @@
+# 不纳入版本控制的文件
+.DS_Store
+*.tmp
+*.log
+.env
+# 个人真实笔记（保留 raw/wiki 占位目录，但不要把你的私人读书数据提交上来）
+vault/raw/*.md
+vault/wiki/books/*.md
+vault/wiki/concepts/*.md
+vault/wiki/people/*.md
+vault/log.md
